@@ -1,0 +1,44 @@
+.button{
+    display:grid;
+    grid-area:body;
+    padding:1rem;
+}
+
+.gap{
+    margin-left:1%;
+}
+
+.btn{
+   width:100px;
+   padding:10px;
+   border-radius:0.5rem;
+   outline:none;
+   border:0px;
+}
+
+.btn_default,.btn_primary,.btn_secondary,.btn_link{
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+}
+
+
+.btn_default{
+   
+    background-color: #e0e0e0;
+}
+.btn_primary,.btn_link{
+    color: #fff;
+    background-color: #1976d2;
+}
+.btn_secondary{
+    color: #fff;
+    background-color: rgb(220, 0, 78);
+}
+
+.btn_disabled{
+    background-color: #e0e0e0;
+    box-shadow: 0px;
+}
+
+.btn_link{
+    width:70px;
+}

@@ -1,0 +1,41 @@
+.nav_main{
+    grid-area:body;
+    width: 80%;
+}
+
+.nav_wrapper{
+    display: grid;
+    width: 100%;
+    grid-template-areas: "logo logo logo navItem";
+    align-items: center;
+   
+    background-color: #e57373;
+    
+}.nav_wrapper>a{
+    color:#ffffff;
+    font-weight: bold;
+    font-size:1.5rem;
+}
+
+.brand_logo{
+    grid-area:logo;
+    padding-left:4rem;
+   
+}
+
+.nav_ul{
+    grid-area:navItem;
+    list-style:none;
+}
+.nav_ul>li{
+    display: inline;
+    padding:1rem;
+}
+.nav_ul>li:hover{
+    /* background-color: red; */
+    border-bottom:1px solid #ffffff;
+    border-radius: 2rem;
+}
+.nav_ul>li>a{
+    color:white;
+}

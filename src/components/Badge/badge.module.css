@@ -1,0 +1,16 @@
+.badge_main{
+    grid-area:body
+}
+
+.badge {
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: #2c3e50;
+    color: #ffffff;
+    border-radius: 3rem;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding: 0.05rem 0.8rem 0.1rem;
+    line-height: inherit;
+  }

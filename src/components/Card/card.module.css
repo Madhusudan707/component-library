@@ -1,0 +1,35 @@
+.card_main{
+    display:grid;
+    grid-area:body;
+    z-index:-1;
+}
+
+.content_block{
+   display:grid;
+   grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+    /* display: grid; */
+    width: 250px;
+    /* grid-row-gap:40px; */
+    /* border: 1px solid gray; */
+    border-radius:0.5rem;
+    margin: 1rem;
+    padding: 1rem;
+    align-self: stretch;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+}
+
+.card_img>img {
+    width: 250px;
+    align-self: center;
+
+}
+
+.card_content>span {
+    display:grid;
+    padding: 1rem;
+}
+

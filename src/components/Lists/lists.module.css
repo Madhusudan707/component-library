@@ -1,0 +1,19 @@
+.list_main{
+    grid-area:body;
+    width: 100%;
+}
+
+.list{
+    width:30%;
+    display: grid;
+}
+.list_ul{
+    list-style: none;
+}
+
+.list_ul>li{
+    padding: 0.5rem;
+}
+.list_ul>li:hover{
+    background-color: #dbdbdb;
+}

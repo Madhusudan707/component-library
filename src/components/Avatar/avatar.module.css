@@ -1,0 +1,16 @@
+.avatar{
+    display:grid;
+    grid-area:body;
+    /* justify-self:center; */
+    /* border:2px solid red; */
+}
+
+.content_block{
+    display:inline;
+    
+}
+.circle{
+    width:50px;
+    border-radius:50%;
+    padding:1rem;
+}

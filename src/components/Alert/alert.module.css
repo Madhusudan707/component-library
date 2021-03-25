@@ -1,0 +1,27 @@
+.alert{
+    display:grid;
+    grid-area:body;
+}
+
+.error{
+    background-color:rgb(253, 236, 234);
+    color:rgb(97, 26, 21);
+}
+
+
+.warning{
+    background-color:rgb(255, 244, 229);
+    color:rgb(102, 60, 0);
+}
+
+
+.info{
+    background-color:rgb(232, 244, 253);
+    color:rgb(13, 60, 97);
+}
+
+
+.success{
+    background-color:rgb(237, 247, 237);
+    color:rgb(30, 70, 32);
+}

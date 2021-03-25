@@ -1,0 +1,13 @@
+
+.rating_main{
+    grid-area:body;
+}
+
+.rating{
+    font-size:2rem;
+}
+.rating>a>i:hover{
+    color:#ffb400;
+}
+
+

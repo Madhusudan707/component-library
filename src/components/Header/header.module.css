@@ -1,0 +1,11 @@
+.header{
+   display:grid;
+    grid-area:header;
+    grid-template-columns: 200px auto;
+    grid-template-areas: "brand headertext";
+    border:1px solid black;
+    position:fixed;width:100%;
+    background-color: #1976D2;
+    color:#ffffff;
+    z-index:1;
+}

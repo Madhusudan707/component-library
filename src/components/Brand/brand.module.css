@@ -1,0 +1,8 @@
+.brand{
+   grid-area:brand;
+   margin-left:5%;
+}
+.brand>img{
+    width:50px;
+   
+}

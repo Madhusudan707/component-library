@@ -1,0 +1,32 @@
+.image_main{
+    display: grid;
+   
+    grid-area:body;
+    width: 70%;
+}
+
+
+.img_small{
+    width: 200px;
+}
+
+
+.img_card{
+    border-radius: 0.5rem;
+}
+
+.img_circle{
+    border-radius: 50%;
+}
+
+.img_thumbnail{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+.img-responsive{
+    max-width: 100%;
+  height: auto;
+}
