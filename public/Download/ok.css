@@ -86,6 +86,7 @@
 /* 4. Button */
 
 .btn{
+  max-width: 100%;
   width:7.25rem;
   padding:0.5rem 1rem;
   border-radius:0.7rem;
