@@ -9,7 +9,7 @@ const Snippet = ({code_snippet}) => {
         src={code_snippet}
         style={{
           position: "relative",
-          marginTop:"1%",
+          marginTop:"5%",
           width: "42rem",
           height: "14.75rem",
           border:"0",
