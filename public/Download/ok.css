@@ -86,48 +86,60 @@
 /* 4. Button */
 
 .btn{
-  width:100%;
-  padding:10px;
-  border-radius:0.5rem;
+  width:7.25rem;
+  padding:0.5rem 1rem;
+  border-radius:0.7rem;
   outline:none;
   border:0px;
   font-weight:bold;
- 
+  text-align: center;
 }
 
 .btn:hover{
-  box-shadow: 0 6px 18px 0 rgba(0, 0, 0, 0.1);
-  color: #f50057;
-  border-color: transparent;
-  background-color: transparent;
-  border:1px solid #000000
+   box-shadow: 0 6px 18px 0 rgba(0, 0, 0, 0.1);
+   border-color: transparent;
+   background-color: transparent;
+   border:1px solid #000000
 }
 
-.btn-default,.btn-primary,.btn-secondary,.btn-link{
+
+.btn_default,.btn_primary,.btn_secondary,.btn_link{
    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
 }
 
-.btn-default{
+
+.btn_default{
   
    background-color: #e0e0e0;
 }
-.btn-primary,.btn_link{
+.btn_default:hover{
+   color:#e0e0e0;
+}
+
+.btn_primary,.btn_link{
    color: #fff;
    background-color: #1976d2;
 }
-.btn-secondary{
+
+.btn_primary:hover,.btn_link:hover{
+   color:#1976d2;
+}
+.btn_secondary{
    color: #fff;
    background-color: rgb(220, 0, 78);
 }
+.btn_secondary:hover{
+   color:rgb(220, 0, 78)
+}
 
-.btn-disabled{
+.btn_disabled{
    background-color: #e0e0e0;
    box-shadow: 0px;
    pointer-events: none;
 }
 
-.btn-link{
-   width:70px;
+.btn_link{
+   width:4.375rem;
 }
 
 

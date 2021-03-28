@@ -9,17 +9,17 @@
 }
 
 .btn{
-   width:100px;
-   padding:10px;
-   border-radius:0.5rem;
+   width:7.25rem;
+   padding:0.5rem 1rem;
+   border-radius:0.7rem;
    outline:none;
    border:0px;
    font-weight:bold;
+   text-align: center;
  }
 
 .btn:hover{
     box-shadow: 0 6px 18px 0 rgba(0, 0, 0, 0.1);
-    color: #f50057;
     border-color: transparent;
     background-color: transparent;
     border:1px solid #000000
@@ -35,13 +35,24 @@
    
     background-color: #e0e0e0;
 }
+.btn_default:hover{
+    color:#e0e0e0;
+}
+
 .btn_primary,.btn_link{
     color: #fff;
     background-color: #1976d2;
 }
+
+.btn_primary:hover,.btn_link:hover{
+    color:#1976d2;
+}
 .btn_secondary{
     color: #fff;
     background-color: rgb(220, 0, 78);
+}
+.btn_secondary:hover{
+    color:rgb(220, 0, 78)
 }
 
 .btn_disabled{
@@ -51,5 +62,5 @@
 }
 
 .btn_link{
-    width:70px;
+    width:4.375rem;
 }
