@@ -9,11 +9,10 @@ const Snippet = ({code_snippet}) => {
         src={code_snippet}
         style={{
           position: "relative",
-          zIndex: "0",
           marginTop:"1%",
-          width: "800px",
-          height: "800px",
-          border: "0",
+          width: "42rem",
+          height: "14.75rem",
+          border:"0",
           transform: "scale(1)",
           // overflow: "hidden",
           background:"none"

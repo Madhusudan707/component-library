@@ -6,6 +6,19 @@
   padding:1rem;
 }
 
+.circle-small{
+  width:3.125rem;
+}
+
+.circle-medium{
+  width:4.37rem;
+}
+
+.circle-large{
+  width:5rem;
+}
+
+
 /* 2. Alert */
 
 .error{

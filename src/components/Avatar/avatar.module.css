@@ -10,7 +10,18 @@
     
 }
 .circle{
-    width:50px;
     border-radius:50%;
     padding:1rem;
 }
+.circle_small{
+    width:3.125rem;
+}
+
+.circle_medium{
+    width:4.37rem;
+}
+
+.circle_large{
+    width:5rem;
+}
+
