@@ -4,7 +4,7 @@
     grid-template-columns: 200px auto;
     grid-template-areas: "brand headertext";
     position:fixed;width:100%;
-    background-color: #1976D2;
+    /* background-color: #1976D2; */
     color:#ffffff;
-    z-index:1;
+    /* z-index:1; */
 }

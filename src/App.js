@@ -7,9 +7,10 @@ function App() {
   return (
    
     <div className="App">
-       <Header/>
-      {console.log({})}
+      
+    
       <Router>
+      <Header/>
       <Sidenav/>
      
           <Switch>
