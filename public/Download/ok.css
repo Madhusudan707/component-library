@@ -103,42 +103,42 @@
 }
 
 
-.btn_default,.btn_primary,.btn_secondary,.btn_link{
+.btn-default,.btn-primary,.btn-secondary,.btn-link{
    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
 }
 
 
-.btn_default{
+.btn-default{
   
    background-color: #e0e0e0;
 }
-.btn_default:hover{
+.btn-default:hover{
    color:#e0e0e0;
 }
 
-.btn_primary,.btn_link{
+.btn-primary,.btn-link{
    color: #fff;
    background-color: #1976d2;
 }
 
-.btn_primary:hover,.btn_link:hover{
+.btn-primary:hover,.btn-link:hover{
    color:#1976d2;
 }
-.btn_secondary{
+.btn-secondary{
    color: #fff;
    background-color: rgb(220, 0, 78);
 }
-.btn_secondary:hover{
+.btn-secondary:hover{
    color:rgb(220, 0, 78)
 }
 
-.btn_disabled{
+.btn-disabled{
    background-color: #e0e0e0;
    box-shadow: 0px;
    pointer-events: none;
 }
 
-.btn_link{
+.btn-link{
    width:4.375rem;
 }
 
