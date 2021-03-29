@@ -5,14 +5,12 @@
 .sidenav{
     width:200px;
     grid-area:sidenav;
-    /* border:2px solid lightblue; */
     position:fixed;
     overflow-y:scroll;
     overflow-x:hidden;
-   
-    box-shadow:solid 0 0 10px #000000;
-    /* border-right:1px solid #000000; */
-    margin-top:5%;
+    box-shadow: -5px -5px 5px -5px red;
+    border-right:1px solid #000000;
+    margin-top:3%;
     top: 0; /* do not remove this*/
     bottom: 0;/* do not remove this*/
   /* mix position:fixed;overflow-y:scroll; and bottom:10px to fix and scroll element */

@@ -22,7 +22,6 @@ body::-webkit-scrollbar-thumb {
 
 .App {
   display: grid;
-  position: relative;
   grid-gap: 5rem;
   grid-template-columns: 200px auto;
   grid-template-areas: 'header header'

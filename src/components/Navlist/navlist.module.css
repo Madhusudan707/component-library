@@ -1,29 +1,29 @@
 
 
 
-ul{
+.navlist_main{
+    width:100%;
     list-style: none;
-    margin-left:10%;
-    padding:0.4rem;
 }
-ul>li{
-    padding:0.37rem 0 0.37rem 0rem;
-    /* border-bottom: 1px solid #000000; */
+.navlist_main>li{
+    width:100%;
+    margin-left:-20%;
+    padding: 0.5rem;
 }
-ul>li>a{
-    font-size:1.5rem;
+.navlist_main>li>a:hover{
+    color:white;
+}
+.navlist_main>li:hover{
+    background-color: #1976D2;
+   
    
 }
-
+.navlist_main>li>a{
+    font-size:1.5rem;
+}
 
 @media screen and (max-width: 768px) {
-
     .navlist_main{
             display:none;
     }
-   
   }
-
-
-
-  
