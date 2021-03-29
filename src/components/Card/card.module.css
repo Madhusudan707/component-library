@@ -10,10 +10,7 @@
 }
 
 .card {
-    /* display: grid; */
-    width: 250px;
-    /* grid-row-gap:40px; */
-    /* border: 1px solid gray; */
+    width: 15.625rem;
     border-radius:0.5rem;
     margin: 1rem;
     padding: 1rem;
@@ -23,7 +20,7 @@
 }
 
 .card_img>img {
-    width: 250px;
+    width: 15.625rem;
     align-self: center;
 
 }

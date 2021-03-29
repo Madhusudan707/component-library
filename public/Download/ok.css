@@ -146,7 +146,7 @@
 /* 5. Card */
 
 .card {
-  width: 250px;
+  width: 15.625rem;
   border-radius:0.5rem;
   margin: 1rem;
   padding: 1rem;
@@ -156,7 +156,7 @@
 }
 
 .card-img>img {
-  width: 250px;
+  width: 15.625rem;
   align-self: center;
 
 }
@@ -165,6 +165,7 @@
   display:grid;
   padding: 1rem;
 }
+
 
 /* 6 Image */
 .img-card{
