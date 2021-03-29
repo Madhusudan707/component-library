@@ -33,8 +33,9 @@
 }
 .nav_ul>li:hover{
     /* background-color: red; */
-    border-bottom:1px solid #ffffff;
-    border-radius: 2rem;
+    border:1px solid #ffffff;
+    font-weight: bold;
+    /* border-radius: 2rem; */
 }
 .nav_ul>li>a{
     color:white;
