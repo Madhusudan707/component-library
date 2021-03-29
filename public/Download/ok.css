@@ -420,6 +420,7 @@
 
 .toast{
   width: 250px;
+  font-weight: bold;
   padding: 1.5rem;
   text-align: center;
   color:white;
