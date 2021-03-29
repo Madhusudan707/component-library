@@ -11,7 +11,7 @@ const Grid = () => {
             <div className={styles.content_block}>
                 <div className={styles.container}>
                     <div className={`${styles.l1} ${styles.box}`}>
-                       <p>1</p>
+                       <p>1</p> 
                     </div>
                     <div className={`${styles.l2} ${styles.box}`}>
                        <p>2</p>
@@ -50,7 +50,7 @@ const Grid = () => {
             </div>
         
             
-            <Snippet code_snippet="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=true&fl=1&fm=Fira+Code&fs=14px&lh=154%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%27col-l1%27%253E1%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%27col-l2%27%253E2%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%27col-l3%27%253E3%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%27col-l4%27%253E4%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%27col-l5%27%253E5%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%27col-l6%27%253E6%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%27col-l7%27%253E7%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%27col-l8%27%253E8%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%27col-l9%27%253E9%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%27col-l10%27%253E10%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%27col-l11%27%253E11%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%27col-l12%27%253E12%253C%252Fdiv%253E"/>
+            <Snippet code_snippet="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=sharp&l=auto&ds=false&dsyoff=20px&dsblur=100px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=148%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%27col-l1%27%253E1%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%27col-l2%27%253E2%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%27col-l3%27%253E3%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%27col-l4%27%253E4%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%27col-l5%27%253E5%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%27col-l6%27%253E6%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%27col-l7%27%253E7%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%27col-l8%27%253E8%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%27col-l9%27%253E9%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%27col-l10%27%253E10%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%27col-l11%27%253E11%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%27col-l12%27%253E12%253C%252Fdiv%253E"/>
         </div>
     )
 }
