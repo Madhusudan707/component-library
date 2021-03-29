@@ -334,11 +334,18 @@
 }
 
 /* 11 Rating */
+
 .rating{
   font-size:2rem;
 }
-.rating>a>i:hover{
+.rating>a>i{
   color:#ffb400;
+ 
+}
+.rating>a>i:hover:before{
+  content:"\f005";
+  color:#ffb400;
+  opacity:0.4;
 }
 /* 12 Slider*/
 
