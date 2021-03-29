@@ -190,18 +190,39 @@
 
 /* 7 Input */
 
-.default_input{
-  padding:1rem;
-  border-radius:0.2rem;
-  outline: none;
- 
-}
-.default_input::placeholder{
-  font-size: 1rem;;
+/*7.1. Default input box */
+.default-input {
+  padding: 1rem;
+  outline: none
 }
 
-.default_input:focus::placeholder {
+.default-input::placeholder {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.default-input:focus::placeholder {
   color: transparent;
+}
+
+.default-input:focus,
+.default-select:focus,
+.default-textarea:focus {
+  border: 1px dashed #1976D2;
+}
+
+/*7.2. Default Select */
+
+.default-select {
+  width: 13.5rem;
+  padding: 1rem;
+  outline: none;
+}
+
+/*7.3. Default Textarea */
+
+.default-textarea {
+  outline: none
 }
 
 /* 8 Lists*/
