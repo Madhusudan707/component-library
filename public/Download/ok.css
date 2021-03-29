@@ -177,16 +177,17 @@
 }
 
 .img-thumbnail{
-border: 1px solid #ddd;
-border-radius: 4px;
-padding: 5px;
-width: 150px;
+  width: 12.5rem;
+ border: 1px solid #ddd;
+ border-radius: 4px;
+ padding: 0.313rem;
 }
 
 .img-responsive{
   max-width: 100%;
   height: auto;
 }
+
 /* 7 Input */
 
 .default_input{

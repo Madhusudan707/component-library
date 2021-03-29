@@ -1,13 +1,16 @@
 .image_main{
     display: grid;
-   
     grid-area:body;
     width: 70%;
 }
 
+.content_block>img{
+    margin-left:1rem;
+    margin-bottom: 1rem;
+}
 
 .img_small{
-    width: 200px;
+    width: 12.5rem;
 }
 
 
@@ -20,13 +23,13 @@
 }
 
 .img_thumbnail{
+   width: 12.5rem;
   border: 1px solid #ddd;
   border-radius: 4px;
-  padding: 5px;
-  width: 150px;
+  padding: 0.313rem;
 }
 
 .img-responsive{
-    max-width: 100%;
+  max-width: 100%;
   height: auto;
 }
