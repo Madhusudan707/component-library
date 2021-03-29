@@ -11,7 +11,7 @@ const Snippet = ({code_snippet}) => {
           position: "relative",
           marginTop:"5%",
           width: "42rem",
-          height: "14.75rem",
+          height: "18.75rem",
           border:"0",
           transform: "scale(1)",
           // overflow: "hidden",
