@@ -10,11 +10,12 @@
     margin-left:-20%;
     padding: 0.5rem;
 }
-.navlist_main>li>a:hover{
+/* .navlist_main>li>a:hover{
     color:white;
-}
+} */
 .navlist_main>li:hover{
-    background-color: #1976D2;
+    /* background-color: #1976D2; */
+    font-weight: bold;
    
    
 }
