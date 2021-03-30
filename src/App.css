@@ -20,6 +20,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 
+
 .App {
   display: grid;
   grid-gap: 5rem;
