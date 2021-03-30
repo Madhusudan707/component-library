@@ -17,6 +17,7 @@
    border:0px;
    font-weight:bold;
    text-align: center;
+   cursor:pointer;
  }
 
 .btn:hover{
