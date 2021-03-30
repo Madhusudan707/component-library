@@ -25,3 +25,13 @@ body::-webkit-scrollbar-thumb {
   grid-template-areas: 'header header'
     'sidenav body ';
 }
+
+@media screen and (max-width:441px){
+  .App {
+    display: grid;
+    grid-gap: 5rem;
+    grid-template-columns: 200px auto;
+    grid-template-areas: 'header'
+      'body ';
+  }
+}
