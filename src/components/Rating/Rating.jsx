@@ -8,7 +8,7 @@ const Rating = () => {
     return (
         <div className={styles.rating_main}>
            
-            <Heading text="Typography"/>
+            <Heading text="Rating"/>
             <Description text="Use typography to present your design and content as clearly and efficiently as possible."/>
             <div className={`${styles.content_block} ${styles.rating}`}>
                 <a href='#rating'>
