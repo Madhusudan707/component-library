@@ -17,3 +17,6 @@
 .list_ul>li:hover{
     background-color: #dbdbdb;
 }
+.list_ul>li>a>i{
+    padding:0.3rem;
+}

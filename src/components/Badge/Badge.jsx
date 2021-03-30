@@ -9,10 +9,10 @@ const Badge = () => {
             <Heading text="Badge"/>
             <Description text="Badges can notify you that there are new or unread messages or notifications."/>
             <div className={styles.content_block}>
-                <span className={styles.badge}>1</span>&nbsp;&nbsp;
-                <span className={styles.badge}><i className="fa fa-bell"></i></span>&nbsp;&nbsp;
-                <span className={styles.badge}><i className="fa fa-inbox"></i></span>&nbsp;&nbsp;
-                <span className={styles.badge}>Maddy</span>&nbsp;&nbsp;
+                <span className={styles.badge}>1</span>
+                <span className={styles.badge}><i className="fa fa-bell"></i></span>
+                <span className={styles.badge}><i className="fa fa-inbox"></i></span>
+                <span className={styles.badge}>Maddy</span>
             </div>
           
             

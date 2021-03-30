@@ -12,10 +12,10 @@ const Lists = () => {
             <div className={styles.content_block}>
                 <div className={styles.list}>
                     <ul className={styles.list_ul}>
-                        <li><a href='#!'><i className="fa fa-bell">&nbsp;</i>Inbox</a></li>
-                        <li><a href='#!'><i className="fa fa-shopping-cart">&nbsp;</i>Cart</a></li>
-                        <li><a href='#!'><i className="fa fa-shopping-bag">&nbsp;</i>Shopping Bag</a></li>
-                        <li><a href='#!'><i className="fa fa-truck">&nbsp;</i>Deliver Van</a></li>
+                        <li><a href='#!'><i className="fa fa-bell"></i>Inbox</a></li>
+                        <li><a href='#!'><i className="fa fa-shopping-cart"></i>Cart</a></li>
+                        <li><a href='#!'><i className="fa fa-shopping-bag"></i>Shopping Bag</a></li>
+                        <li><a href='#!'><i className="fa fa-truck"></i>Deliver Van</a></li>
                     </ul>
                 </div>
             </div>
