@@ -19,6 +19,9 @@
    
    
 }
+.navlist_main>li>a:focus{
+    font-weight: bold;
+}
 .navlist_main>li>a{
     font-size:1.5rem;
 }
