@@ -3,7 +3,6 @@ a {
   color: #1976D2;
 }
 
-
 body::-webkit-scrollbar-track {
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
@@ -16,10 +15,8 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color:#bdbdbd  ;
+  background-color: #bdbdbd;
 }
-
-
 
 .App {
   display: grid;
@@ -28,6 +25,3 @@ body::-webkit-scrollbar-thumb {
   grid-template-areas: 'header header'
     'sidenav body ';
 }
-
-
-
