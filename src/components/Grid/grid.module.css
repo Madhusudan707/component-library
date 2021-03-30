@@ -105,3 +105,12 @@
      color:#ffffff;
      text-align: center;
   } */
+
+  @media screen and (max-width:441px){
+    .content_block{
+        display:grid;
+       
+       margin-left:10%;
+       
+      }
+  }

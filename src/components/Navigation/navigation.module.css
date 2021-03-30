@@ -8,10 +8,10 @@
     width: 100%;
     grid-template-areas: "logo logo logo navItem";
     align-items: center;
-   
     background-color: #e57373;
-    
-}.nav_wrapper>a{
+}
+
+.nav_wrapper>a{
     color:#ffffff;
     font-weight: bold;
     font-size:1.5rem;
@@ -41,3 +41,34 @@
     color:white;
     font-size:1.5rem;
 }
+
+@media screen and (max-width:441px){
+    /* .content_block{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr; 
+        justify-self: center;
+       
+      } */
+      .nav_main{
+        width: 100%;
+        padding:1rem;
+    }
+
+    .nav_wrapper{
+        display: grid;
+       
+        grid-template-areas: "logo navItem";
+        align-items: center;
+        background-color: #e57373;
+    }
+
+    .brand_logo{
+        grid-area:logo;
+        padding-left:1rem;
+    }
+
+    .nav_ul>li{
+
+        padding:0.5rem;
+    }
+  }

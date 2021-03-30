@@ -5,3 +5,11 @@
     grid-area:body;
     font-family: 'Roboto', sans-serif;
 }
+
+@media screen and (max-width:441px){
+    .content_block{
+        display:grid;
+        grid-template-columns: 1fr; 
+        justify-items: center;
+      }
+  }

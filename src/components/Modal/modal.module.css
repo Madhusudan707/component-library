@@ -64,3 +64,14 @@
     background: #ffffff;
     color:#e53935
 }
+
+@media screen and (max-width:441px){
+    .content_block>a{
+        
+      margin:2rem;
+       
+      }
+      .content_block>a>button{
+          width:50%;
+      }
+  }

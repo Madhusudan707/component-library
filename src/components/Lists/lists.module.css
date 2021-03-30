@@ -20,3 +20,18 @@
 .list_ul>li>a>i{
     padding:0.3rem;
 }
+
+@media screen and (min-width:441px){
+   
+}
+
+@media screen and (max-width:441px){
+    .list_ul{
+        list-style: none;
+        width:100%;
+        font-size:1.5rem;
+    }
+    .list_ul>li{
+        width:300px;
+    }
+}

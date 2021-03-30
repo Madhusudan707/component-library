@@ -1,12 +1,9 @@
 :root{
-    --alert-width:20rem;
+    --alert-width:18rem;
     --rem1-padding:1rem;
     --text-align:center;
     --bold:bold;
 }
-
-
-
 
 .alert{
     display:grid;
@@ -14,9 +11,23 @@
 }
 
 .content_block{
+   
     display:grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 2fr; 
+   
 }
+
+@media screen and (min-width:441px){
+   
+  }
+  
+  @media screen and (max-width:441px){
+    .content_block{
+        grid-template-columns: 1fr; 
+        justify-self: center;
+       
+      }
+  }
 
 .error{
 

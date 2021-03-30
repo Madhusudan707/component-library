@@ -3,11 +3,25 @@
     grid-area:body;
     /* justify-self:center; */
     /* border:2px solid red; */
+
 }
 
+
 .content_block{
-    display:inline;
-    
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 7fr; 
+}
+
+@media screen and (min-width:441px){
+   
+}
+
+@media screen and (max-width:441px){
+  .content_block{
+      grid-template-columns: 1fr 1fr 1fr; 
+      justify-self: center;
+     
+    }
 }
 .circle{
     border-radius:50%;
@@ -24,4 +38,5 @@
 .circle_large{
     width:5rem;
 }
+
 

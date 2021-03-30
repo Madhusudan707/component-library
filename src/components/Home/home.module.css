@@ -1,59 +1,53 @@
 
-
-
-
-
 .home{
     grid-area:body;
     position:relative;
-   
-     /* z-index:1; */
-   
-    /* margin-top:-1.5%; */
-
-   
-    /* background: url("https://github.com/Madhusudan707/component-library/blob/development/public/bg_home.png?raw=true") no-repeat center center; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; */
-    /* -moz-animation: cssAnimation 0s ease-in 5s forwards;
-   
-    -webkit-animation: cssAnimation 0s ease-in 5s forwards;
-    
-    -o-animation: cssAnimation 0s ease-in 5s forwards;
-   
-    animation: cssAnimation 0s ease-in 5s forwards;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards; */
 }
 .home>img{
     width:100%;
    height:580px;
-  
+}
+@media screen and (min-width:441px){
+    .home>embed{
+        overflow:scroll;
+    border:none; /* optional */
+    }
+    .home>img:nth-child(2){
+        width:600px;
+        max-width: 100%;    
+        height: auto;
+        display:none  
+    }
     
 }
+
+@media screen and (max-width:441px){
+    /* .hamburger_main{
+        display:none
+    } */
+    .home{
+        display:grid;
+        grid-template-columns: 1fr; 
+        grid-gap:5rem;
+        align-items: center;
+        justify-items: center;
+      }
+    .home>img:nth-child(1){
+        display:none
+    }
+    .home>img:nth-child(2){
+        margin-top:5%;
+     width:100%;
+    height:40vh;
+    }
+}
+
 .home>iframe{
     position:absolute;
     top:55%;
     left:20%;
   
 }
-/* @keyframes cssAnimation {
-    to {
-        width:0;
-        height:0;
-        overflow:hidden;
-    }
-}
-@-webkit-keyframes cssAnimation {
-    to {
-        width:0;
-        height:0;
-        visibility:hidden;
-    }
-} */
-
 
 .btn{
     width:100px;
@@ -67,4 +61,26 @@
     color: #fff;
     background-color: rgb(220, 0, 78);
     box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+}
+
+
+@media screen and (max-width:441px){ /*mobile view */
+    .snippet_home{
+        position: absolute;
+        margin:45% 0 0 -20%;
+        width:100vw;
+        height: 14.75rem;
+        border:0;
+        transform: scale(1);
+        
+    }
+}
+@media screen and (min-width:441px){ /*desktop view */
+    .snippet_home{
+        position: relative;
+        width: 42rem;
+        height: 14.75rem;
+        border:0;
+        transform: scale(1);
+    }
 }

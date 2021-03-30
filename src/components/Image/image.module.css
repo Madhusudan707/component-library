@@ -9,6 +9,14 @@
     margin-bottom: 1rem;
 }
 
+@media screen and (max-width:441px){
+    .content_block{
+        display:grid;
+        justify-self: center;
+       
+      }
+  }
+
 .img_small{
     width: 12.5rem;
 }

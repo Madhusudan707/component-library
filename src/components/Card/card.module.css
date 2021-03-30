@@ -9,6 +9,14 @@
    grid-template-columns: 1fr 1fr 1fr;
 }
 
+@media screen and (max-width:441px){
+    .content_block{
+        grid-template-columns: 1fr; 
+        justify-self: center;
+       
+      }
+  }
+
 .card {
     width: 15.625rem;
     border-radius:0.5rem;

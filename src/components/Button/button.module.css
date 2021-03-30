@@ -66,3 +66,14 @@
 .btn_link{
     width:4.375rem;
 }
+
+@media screen and (max-width:441px){
+    .content_block{
+        margin-top:5%;
+       display:grid;
+       grid-gap:30px;
+        grid-template-columns: 1fr 1fr ; 
+        justify-self: center;
+       
+      }
+  }
