@@ -11,11 +11,9 @@ const Snippet = ({code_snippet}) => {
           position: "relative",
           marginTop:"5%",
           width: "42rem",
-          height: "27.75rem",
+          height: "14.75rem",
           border:"0",
           transform: "scale(1)",
-          // overflowY: "scroll",
-          background:"none"
         }}
         sandbox="allow-scripts allow-same-origin"
       ></iframe>
