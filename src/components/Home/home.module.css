@@ -1,6 +1,59 @@
+
+
+
+
+
 .home{
     grid-area:body;
+    position:relative;
+   
+     /* z-index:1; */
+   
+    /* margin-top:-1.5%; */
+
+   
+    /* background: url("https://github.com/Madhusudan707/component-library/blob/development/public/bg_home.png?raw=true") no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+    /* -moz-animation: cssAnimation 0s ease-in 5s forwards;
+   
+    -webkit-animation: cssAnimation 0s ease-in 5s forwards;
+    
+    -o-animation: cssAnimation 0s ease-in 5s forwards;
+   
+    animation: cssAnimation 0s ease-in 5s forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards; */
 }
+.home>img{
+    width:100%;
+   height:580px;
+  
+    
+}
+.home>iframe{
+    position:absolute;
+    top:55%;
+    left:20%;
+  
+}
+/* @keyframes cssAnimation {
+    to {
+        width:0;
+        height:0;
+        overflow:hidden;
+    }
+}
+@-webkit-keyframes cssAnimation {
+    to {
+        width:0;
+        height:0;
+        visibility:hidden;
+    }
+} */
+
 
 .btn{
     width:100px;
