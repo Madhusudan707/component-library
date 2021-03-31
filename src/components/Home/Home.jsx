@@ -1,33 +1,26 @@
-import React from 'react'
-import styles from './home.module.css'
-import { Link } from "react-router-dom";
-import Snippet from '../Common/Snippet/Snippet'
-import {
-    AVATAR
-  } from "../../config/routing/paths";
+import React from "react";
+import styles from "./home.module.css";
+import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+import { vs } from "react-syntax-highlighter/dist/esm/styles/prism";
+import { CopyToClipboard } from "react-copy-to-clipboard";
+import { AVATAR } from "../../config/routing/paths";
 const Home = () => {
-    return (
-        <div className={`${styles.home} ${styles.bg}`} >
-            <img src='/images/ok_bg.png' alt='big logo' />
-            <img src='/images/ok_bg_small2.png' alt='big logo mobile' />
-            {/* <h1><a href="#toggle">View Docs</a> </h1> */}
-            {/* <h3 >Initial Setup</h3>
-            <h4>
-                <a href="/Download/ok.css" className={`${styles.btn} ${styles.btn_secondary}`} download>OK.CSS</a>
-                
-                <a href="/Download/ok.min.css" className={`${styles.btn} ${styles.btn_secondary}`} download>OK.CSS.MIN</a>
-            </h4> */}
-            {/* <Snippet code_snippet='https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=100px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=10.5px&lh=148%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fok-css.herokuapp.com%252FDownload%252Fok.css%2522%253E%250A%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Ffonts.googleapis.com%252Fcss2%253Ffamily%253DRoboto%253Awght%2540300%2526display%253Dswap%2522%252F%253E%2520%250A%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fcdnjs.cloudflare.com%252Fajax%252Flibs%252Ffont-awesome%252F4.7.0%252Fcss%252Ffont-awesome.css%2522%252F%253E'/> */}
-
-            <iframe className={styles.snippet_home}
-  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=sharp&l=htmlmixed&ds=false&dsyoff=20px&dsblur=100px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=10.5px&lh=148%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fok-css.herokuapp.com%252FDownload%252Fok.css%2522%253E%250A%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Ffonts.googleapis.com%252Fcss2%253Ffamily%253DRoboto%253Awght%2540300%2526display%253Dswap%2522%252F%253E%2520%250A%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fcdnjs.cloudflare.com%252Fajax%252Flibs%252Ffont-awesome%252F4.7.0%252Fcss%252Ffont-awesome.css%2522%252F%253E"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-        </div>
-
-        
-
-    )
-}
-export default Home
-
+  const code_snippet = `<link rel="stylesheet" href="https://ok-css.herokuapp.com/Download/ok.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"/> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>`;
+  return (
+    <div className={`${styles.home} ${styles.bg}`}>
+      <img src="/images/ok_bg.png" alt="big logo" />
+      <img src="/images/ok_bg_small2.png" alt="big logo mobile" />
+      <div className={styles.snippet_home}>
+        <SyntaxHighlighter language="html" style={vs}>
+          {code_snippet}
+        </SyntaxHighlighter>
+        <CopyToClipboard text={code_snippet}>
+          <button>Copy to clipboard</button>
+        </CopyToClipboard>
+      </div>
+    </div>
+  );
+};
+export default Home;

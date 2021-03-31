@@ -15,7 +15,10 @@ const Toast = () => {
             </div>
           
             
-            <Snippet code_snippet="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=sharp&l=auto&ds=false&dsyoff=20px&dsblur=100px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=148%25&si=false&es=2x&wm=false&code=%253Cspan%2520class%253D%27toast%2520t-error%27%253EI%2520am%2520a%2520Toast%2520Error%21%253C%252Fspan%253E%250A%253Cspan%2520class%253D%27toast%2520t-warning%27%253EI%2520am%2520a%2520Toast%2520Warning%21%253C%252Fspan%253E%250A%253Cspan%2520class%253D%27toast%2520t-success%27%253EI%2520am%2520a%2520Toast%2520Success%21%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"/>
+            <Snippet code_snippet={`<span class='toast t-error'>I am a Toast Error!</span>
+<span class='toast t-warning'>I am a Toast Warning!</span>
+<span class='toast t-success'>I am a Toast Success!</span>
+             `}/>
         </div>
     )
 }

@@ -54,7 +54,18 @@ const Card = () => {
           </div>
         </div>
         </div>
-        <Snippet code_snippet="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=sharp&l=auto&ds=false&dsyoff=20px&dsblur=100px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%27card%27%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%27card-title%27%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253ECard%2520Title%253C%252Fh4%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%27card-img%27%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%27sample.jpg%27%2520alt%253D%27sample%27%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%27card-content%27%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EMy%2520Card%2520Content%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520" />
+        <Snippet code_snippet={`<div class='card'>
+    <div class='card-title'>
+        <h4>Card Title</h4>
+    </div>
+    <div class='card-img'>
+        <img src='sample.jpg' alt='sample'/>
+    </div>
+    <div class='card-content'>
+        <span>My Card Content</span>
+    </div>
+</div>
+    `} />
     
 
      

@@ -16,7 +16,7 @@ const Slider = () => {
             </div>
         
             
-            <Snippet code_snippet="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=sharp&l=auto&ds=false&dsyoff=20px&dsblur=100px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=148%25&si=false&es=2x&wm=false&code=%253Cp%253E%253Cinput%2520type%253D%2522range%2522%2520min%253D%25220%2522%2520max%253D%2522100%2522%252F%253E%253C%252Fp%253E"/>
+            <Snippet code_snippet={`<p><input type="range" min="0" max="100"/></p>`}/>
         </div>
     )
 }

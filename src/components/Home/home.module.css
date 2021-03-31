@@ -67,9 +67,8 @@
 @media screen and (max-width:441px){ /*mobile view */
     .snippet_home{
         position: absolute;
-        margin:45% 0 0 -20%;
+        margin-top:600px;        
         width:100vw;
-        height: 14.75rem;
         border:0;
         transform: scale(1);
         
@@ -77,10 +76,10 @@
 }
 @media screen and (min-width:441px){ /*desktop view */
     .snippet_home{
-        position: relative;
-        width: 42rem;
-        height: 14.75rem;
+        position: absolute;
+        width: 85%;
         border:0;
         transform: scale(1);
+        margin-top:-20%;
     }
 }
