@@ -42,6 +42,10 @@
     font-size:1.5rem;
 }
 
+.nav_ul>li>a:focus{
+    font-weight:bold
+}
+
 @media screen and (max-width:441px){
     /* .content_block{
         display:grid;
@@ -68,7 +72,8 @@
     }
 
     .nav_ul>li{
-
         padding:0.5rem;
     }
+
+   
   }

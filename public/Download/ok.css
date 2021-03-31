@@ -280,6 +280,10 @@
   color:white;
 }
 
+.nav_ul>li>a:focus{
+  font-weight:bold
+}
+
 /* 10 Modal */
 
 .modal {
