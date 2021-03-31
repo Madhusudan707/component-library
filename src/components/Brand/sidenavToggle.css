@@ -49,6 +49,7 @@
     overflow-x:hidden;
   
 }
+
 .sidebarMenuInner{
     margin:0;
     padding:0;
@@ -56,6 +57,8 @@
   
     
 }
+
+
 .sidebarMenuInner li{
     list-style: none;
     color: #fff;
@@ -103,6 +106,9 @@ input[type="checkbox"]:checked ~ #sidebarMenu {
     height: 22px;
     width: 22px;
 }
+
+
+
 .spinner {
     transition: all 0.3s;
     box-sizing: border-box;
@@ -160,6 +166,6 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     }
 
     .sidebarMenuInner>li>a{
-        font-size:2rem;
+        font-size:1.3rem;
     }
 }
