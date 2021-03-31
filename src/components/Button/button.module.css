@@ -8,6 +8,10 @@
     margin-left:1%;
 }
 
+button[disabled] { 
+    pointer-events: none;
+  }
+
 .btn{
    width: 100%;
    width:7.25rem;
