@@ -2,7 +2,6 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import routes from "./config/routing/routes";
 import Sidenav from "./components/Sidenav/Sidenav";
 import Header from "./components/Header/Header";
-import Home from "./components/Home/Home";
 import "./App.css";
 function App() {
   return (

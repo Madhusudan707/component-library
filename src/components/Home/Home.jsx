@@ -3,7 +3,6 @@ import styles from "./home.module.css";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { vs } from "react-syntax-highlighter/dist/esm/styles/prism";
 import { CopyToClipboard } from "react-copy-to-clipboard";
-import { AVATAR } from "../../config/routing/paths";
 const Home = () => {
   const code_snippet = `<link rel="stylesheet" href="https://ok-css.herokuapp.com/Download/ok.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"/> 

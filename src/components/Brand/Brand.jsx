@@ -26,7 +26,7 @@ const Brand = () => {
         <div className={styles.brand}>
             <div className="header">
             {/* <h1>OK CSS</h1> */}
-            <img src='/images/ok_logo.svg' width="60"/>
+            <img src='/images/ok_logo.svg' width="60" alt='brand'/>
             <a href='https://github.com/Madhusudan707/component-library/' style={{color:"white"}}><i className="fa fa-github fa-3x"></i></a>
             </div>
             <Hamburger />
