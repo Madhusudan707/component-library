@@ -1,0 +1,28 @@
+.content_block {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 7fr;
+}
+
+@media screen and (max-width:441px) {
+    .content_block {
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-self: center;
+    }
+}
+
+.circle {
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+.circle_small {
+    width: 3.125rem;
+}
+
+.circle_medium {
+    width: 4.37rem;
+}
+
+.circle_large {
+    width: 5rem;
+}

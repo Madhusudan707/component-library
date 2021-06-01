@@ -3,7 +3,6 @@ a {
 }
 
 .App {
-
   grid-template-areas: 'sidenav body ';
 }
 
@@ -12,12 +11,14 @@ a {
 }
 
 .home{
-  grid-area:body;
   overflow: hidden;
+}
+
+.home,.avatar{
+  grid-area:body;
 }
 
 .home>div>img{
   width:800px;
 }
-
 
