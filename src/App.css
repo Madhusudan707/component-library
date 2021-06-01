@@ -16,7 +16,7 @@ a {
   grid-area:body;
 }
 
-.avatar{
+.common{
   grid-area:body;
   width: 80%;
 }

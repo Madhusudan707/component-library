@@ -1,5 +1,6 @@
-import {HOME,AVATAR} from "./paths";
+import {HOME,AVATAR,ALERT} from "./paths";
 import {Home,AvatarPage} from '../Pages/index'
+import {Alert} from '../Components/Library'
 
 const HOME_ONE = {
   component: Home,
@@ -11,6 +12,11 @@ const AVATAR_TWO= {
   path: AVATAR,
 };
 
-const routes = [HOME_ONE,AVATAR_TWO];
+const ALERT_THREE= {
+  component: Alert,
+  path: ALERT,
+};
+
+const routes = [HOME_ONE,AVATAR_TWO,ALERT_THREE];
 
 export default routes;
