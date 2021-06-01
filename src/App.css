@@ -3,19 +3,22 @@ a {
 }
 
 .App {
+  display: grid;
   grid-template-areas: 'sidenav body ';
 }
 
 .sidenav{
-  grid-area:sidenav
+  grid-area:sidenav;
 }
 
 .home{
   overflow: hidden;
+  grid-area:body;
 }
 
-.home,.avatar{
+.avatar{
   grid-area:body;
+  width: 80%;
 }
 
 .home>div>img{

@@ -3,32 +3,32 @@ import "./avatar.css";
 
 export const Avatar = () => {
   return (
-    <div className="avatar">
+    <div className="shadow-md rounded-lg mt-4 p-4 border-t-4 border-blue-500">
       <Heading text="Avatar" />
-      <Description text="Avatars are found throughout material design with uses in everything from tables to dialog menus." />
-      <div className={styles.content_block}>
+      <Description text="An avatar (also known as a profile picture or user image) is a graphical representation of a user or the user's character or persona." />
+      <div className="content-block flex flex-row items-center ">
         <img
           src="https://via.placeholder.com/150"
-          className={`${styles.circle} ${styles.circle_small}`}
+          className="circle circle-small"
           alt="avatar small"
         />
         <img
           src="https://via.placeholder.com/150"
-          className={`${styles.circle} ${styles.circle_medium}`}
+          className="circle circle-medium"
           alt="avatar medium"
         />
         <img
           src="https://via.placeholder.com/150"
-          className={`${styles.circle} ${styles.circle_large}`}
+          className="circle circle-large"
           alt="avatar large"
         />
       </div>
       <Snippet
         code_snippet={` <img src='https://via.placeholder.com/50' class='circle circle-small' alt='avatar small'/>
  
- <img src='https://via.placeholder.com/50' class='circle circle-medium' alt='avatar small'/>
+ <img src='https://via.placeholder.com/50' class='circle circle-medium' alt='avatar medium'/>
  
- <img src='https://via.placeholder.com/50' class='circle circle-medium' alt='avatar small'/>`}
+ <img src='https://via.placeholder.com/50' class='circle circle-medium' alt='avatar large'/>`}
       />
     </div>
   );

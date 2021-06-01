@@ -2,7 +2,7 @@
 import {Brand} from '../'
 import './sidenav.css'
 import {Link} from 'react-router-dom'
-import {HOME} from '../../routing/paths'
+import {HOME,AVATAR} from '../../routing/paths'
 export const SideNav = () => {
     return (
         <div className='flex flex-col bg-green-500 lg:w-72 lg:h-screen bg-gradient-to-b from-blue-500  to-blue-700 fixed sidenav z-10'>
@@ -11,7 +11,7 @@ export const SideNav = () => {
            <div className='flex flex-col items-center show-scroll scrollbar-style '>
                <ul className='text-white text-2xl p-4'>
                    <li><Link to={HOME}>Home</Link></li>
-                   <li><a href='#!'>Avatar</a></li>
+                   <li><Link to={AVATAR}>Avatar</Link></li>
                    <li><a href='#!'>Alert</a></li>
                    <li><a href='#!'>Badge</a></li>
                    <li><a href='#!'>Button</a></li>
