@@ -1,11 +1,16 @@
 import { SideNav } from "./Components";
-import { Home } from "./Components/Home/Home";
+import { Routes, Route } from "react-router-dom";
+import routes from "./routing/routes";
 import './App.css'
 
 const App = () => {
   return <div className="App">
     <SideNav/>
-    <Home/>
+    <Routes>
+          {routes.map((route, key) => (
+            <Route path={route.path} element={<route.component />} key={key} />
+          ))}
+    </Routes>
   </div>;
 };
 
