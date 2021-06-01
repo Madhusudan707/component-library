@@ -2,3 +2,22 @@ a {
   text-decoration: none;
 }
 
+.App {
+
+  grid-template-areas: 'sidenav body ';
+}
+
+.sidenav{
+  grid-area:sidenav
+}
+
+.home{
+  grid-area:body;
+  overflow: hidden;
+}
+
+.home>div>img{
+  width:800px;
+}
+
+
