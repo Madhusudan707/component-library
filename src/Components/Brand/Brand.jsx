@@ -1,4 +1,4 @@
-import {DropDown} from '../Library/'
+import {DropDown} from '../'
 
 export const Brand = () => {
     return (
