@@ -6,7 +6,7 @@ export const Avatar = () => {
     <>
       <Heading text="Avatar" />
       <Description text="An avatar (also known as a profile picture or user image) is a graphical representation of a user or the user's character or persona." />
-      <div className="content-block flex flex-row items-center ">
+      <div className="flex flex-row items-center ">
         <img
           src="https://via.placeholder.com/150"
           className="circle circle-small"

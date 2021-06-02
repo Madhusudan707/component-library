@@ -4,12 +4,6 @@
     --text-align: center;
     --bold: bold;
 }
-
-.content_block {
-    /* display: grid;
-    grid-template-columns: 1fr 2fr; */
-}
-
 @media screen and (min-width:441px) {}
 
 @media screen and (max-width:441px) {

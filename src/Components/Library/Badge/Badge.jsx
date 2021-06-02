@@ -7,21 +7,21 @@ export const Badge = () => {
       <Heading text="Badge" />
       <Description text="Badges can notify you that there are new or unread messages or notifications." />
       <div className=" mt-8 flex flex-row items-center justify-around w-full ">
-        <div className="badge">
+        <div className="wrapper">
           <i class="fas fa-shopping-cart fa-4x"></i>
-          <div className="circle">
+          <div className="badge">
             <span className="content">1</span>
           </div>
         </div>
-        <div className="badge">
+        <div className="wrapper">
           <i class="fas fa-bell fa-4x"></i>
-          <div className="circle">
+          <div className="badge">
             <span className="content">1</span>
           </div>
         </div>
-        <div className="badge">
+        <div className="wrapper">
           <i class="fas fa-inbox fa-4x"></i>
-          <div className="circle">
+          <div className="badge">
             <span className="content">1</span>
           </div>
         </div>
@@ -30,7 +30,7 @@ export const Badge = () => {
       <Snippet
         code_snippet={`<div className="badge">
     <i class="fas fa-inbox fa-4x"></i>
-    <div className="circle">
+    <div className="badge">
         <span className="content">1</span>
     </div>
 </div>`}

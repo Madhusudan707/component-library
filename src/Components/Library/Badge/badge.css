@@ -1,8 +1,8 @@
-.badge {
+.wrapper {
     position:relative;
 }
 
-.circle{
+.badge{
     display: inline-table;
     vertical-align: middle;
     width: 20px;
