@@ -1,0 +1,33 @@
+
+.list{
+    width:30%;
+    display: grid;
+}
+.list-ul{
+    list-style: none;
+}
+
+.list-ul>li{
+    padding: 0.5rem;
+}
+.list-ul>li:hover{
+    background-color: #dbdbdb;
+}
+.list-ul>li>a>i{
+    padding:0.3rem;
+}
+
+@media screen and (min-width:441px){
+   
+}
+
+@media screen and (max-width:441px){
+    .list-ul{
+        list-style: none;
+        width:100%;
+        font-size:1.5rem;
+    }
+    .list-ul>li{
+        width:300px;
+    }
+}

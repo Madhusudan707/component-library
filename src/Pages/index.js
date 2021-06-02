@@ -5,3 +5,5 @@ export { BadgePage } from "./BadgePage";
 export { ButtonPage } from "./ButtonPage";
 export { CardPage } from "./CardPage";
 export {ImagePage} from "./ImagePage"
+export {InputPage} from "./InputPage"
+export {ListPage} from "./ListPage"
