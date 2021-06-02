@@ -7,6 +7,7 @@ export const CARD = "/card"
 export const IMAGE = "/image"
 export const INPUT = "/input"
 export const LIST = "/list"
+export const MODAL = "/modal"
 
 
 
