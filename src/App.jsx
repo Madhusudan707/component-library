@@ -4,6 +4,7 @@ import routes from "./routing/routes";
 import "./App.css";
 
 const App = () => {
+  console.log({routes})
   return (
     <div className="App">
       <SideNav />
