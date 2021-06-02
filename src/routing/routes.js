@@ -1,5 +1,5 @@
-import {HOME,AVATAR,ALERT,BADGE,BUTTON} from "./paths";
-import {Home,AvatarPage,AlertPage,BadgePage,ButtonPage} from '../Pages/index'
+import {HOME,AVATAR,ALERT,BADGE,BUTTON,CARD,IMAGE} from "./paths";
+import {Home,AvatarPage,AlertPage,BadgePage,ButtonPage,CardPage,ImagePage} from '../Pages/index'
 
 const HOME_ONE = {
   component: Home,
@@ -26,6 +26,16 @@ const BUTTON_FIVE= {
   path: BUTTON,
 };
 
-const routes = [HOME_ONE,AVATAR_TWO,ALERT_THREE,BADGE_FOUR,BUTTON_FIVE];
+const CARD_SIX= {
+  component: CardPage,
+  path: CARD,
+};
+
+const IMAGE_SEVEN= {
+  component: ImagePage,
+  path: IMAGE,
+};
+
+const routes = [HOME_ONE,AVATAR_TWO,ALERT_THREE,BADGE_FOUR,BUTTON_FIVE,CARD_SIX,IMAGE_SEVEN];
 
 export default routes;

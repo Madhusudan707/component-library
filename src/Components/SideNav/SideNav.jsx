@@ -2,7 +2,7 @@
 import {Brand} from '../'
 import './sidenav.css'
 import {Link} from 'react-router-dom'
-import {HOME,AVATAR,ALERT,BADGE,BUTTON} from '../../routing/paths'
+import {HOME,AVATAR,ALERT,BADGE,BUTTON,CARD,IMAGE} from '../../routing/paths'
 export const SideNav = () => {
     return (
         <div className='flex flex-col bg-green-500 lg:w-72 lg:h-screen bg-gradient-to-b from-blue-500  to-blue-700 fixed sidenav z-10'>
@@ -15,8 +15,8 @@ export const SideNav = () => {
                    <li><Link to={ALERT}>Alert</Link></li>
                    <li><Link to={BADGE}>Badge</Link></li>
                    <li><Link to={BUTTON}>Button</Link></li>
-                   <li><a href='#!'>Card</a></li>
-                   <li><a href='#!'>Image</a></li>
+                   <li><Link to={CARD}>Card</Link></li>
+                   <li><Link to={IMAGE}>Image</Link></li>
                    <li><a href='#!'>Input</a></li>
                    <li><a href='#!'>Lists</a></li>
                    <li><a href='#!'>Navigation</a></li>
