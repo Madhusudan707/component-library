@@ -1,6 +1,6 @@
 import { Alert } from "../Components/Library";
-import { Card } from "../Components";
+import { Container} from "../Components";
 
 export const AlertPage = () => {
-  return <Card libraryComponent={<Alert />} />;
+  return <Container libraryComponent={<Alert />} />;
 };

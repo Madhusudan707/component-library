@@ -1,6 +1,6 @@
 import { Badge } from "../Components/Library";
-import { Card } from "../Components";
+import { Container } from "../Components";
 
 export const BadgePage = () => {
-  return <Card libraryComponent={<Badge />} />;
+  return <Container libraryComponent={<Badge />} />;
 };

@@ -1,7 +1,7 @@
 import { Button } from "../Components/Library";
-import { Card } from "../Components";
+import { Container } from "../Components";
 
 export const ButtonPage = () => {
-  return <Card libraryComponent={<Button/>} />;
+  return <Container libraryComponent={<Button/>} />;
 };
 

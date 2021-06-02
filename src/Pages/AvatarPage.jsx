@@ -1,6 +1,6 @@
 import { Avatar } from "../Components/Library";
-import { Card } from "../Components";
+import { Container } from "../Components";
 
 export const AvatarPage = () => {
-  return <Card libraryComponent={<Avatar />} />;
+  return <Container libraryComponent={<Avatar />} />;
 };
