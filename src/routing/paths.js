@@ -8,6 +8,7 @@ export const IMAGE = "/image"
 export const INPUT = "/input"
 export const LIST = "/list"
 export const MODAL = "/modal"
+export const TOAST = "./toast"
 
 
 
