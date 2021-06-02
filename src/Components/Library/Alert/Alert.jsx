@@ -3,7 +3,7 @@ import "./alert.css";
 
 export const Alert = () => {
   return (
-    <div className="shadow-md rounded-lg mt-4 p-4 border-t-4 border-blue-500 common">
+    <>
       <Heading text="Alert" />
 
       <Description text="An alert displays a short, important message in a way that attracts the user's attention without interrupting the user's task." />
@@ -23,6 +23,6 @@ export const Alert = () => {
 
 <span class='success'></span>`}
       />
-    </div>
+    </>
   );
 };

@@ -1,6 +1,5 @@
-import {HOME,AVATAR,ALERT} from "./paths";
-import {Home,AvatarPage} from '../Pages/index'
-import {Alert} from '../Components/Library'
+import {HOME,AVATAR,ALERT,BADGE} from "./paths";
+import {Home,AvatarPage,AlertPage,BadgePage} from '../Pages/index'
 
 const HOME_ONE = {
   component: Home,
@@ -13,10 +12,15 @@ const AVATAR_TWO= {
 };
 
 const ALERT_THREE= {
-  component: Alert,
+  component: AlertPage,
   path: ALERT,
 };
 
-const routes = [HOME_ONE,AVATAR_TWO,ALERT_THREE];
+const BADGE_FOUR= {
+  component: BadgePage,
+  path: BADGE,
+};
+
+const routes = [HOME_ONE,AVATAR_TWO,ALERT_THREE,BADGE_FOUR];
 
 export default routes;

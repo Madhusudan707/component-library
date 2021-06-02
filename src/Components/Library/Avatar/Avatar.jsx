@@ -3,7 +3,7 @@ import "./avatar.css";
 
 export const Avatar = () => {
   return (
-    <div className="shadow-md rounded-lg mt-4 p-4 border-t-4 border-blue-500">
+    <>
       <Heading text="Avatar" />
       <Description text="An avatar (also known as a profile picture or user image) is a graphical representation of a user or the user's character or persona." />
       <div className="content-block flex flex-row items-center ">
@@ -30,6 +30,6 @@ export const Avatar = () => {
  
  <img src='https://via.placeholder.com/50' class='circle circle-medium' alt='avatar large'/>`}
       />
-    </div>
+    </>
   );
 };

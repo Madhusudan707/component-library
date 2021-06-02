@@ -1,9 +1,6 @@
-import {Avatar} from '../Components/Library'
+import { Avatar } from "../Components/Library";
+import { Card } from "../Components";
 
 export const AvatarPage = () => {
-    return (
-        <div className='common flex flex-row items-center justify-center'>
-            <Avatar/>
-        </div>
-    )
-}
+  return <Card libraryComponent={<Avatar />} />;
+};

@@ -1,0 +1,30 @@
+.badge {
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: #2c3e50;
+    color: #ffffff;
+    border-radius: 3rem;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding: 0.5rem 1rem;
+    line-height: inherit;
+}
+
+.content_block {
+    display: grid;
+    width: 100px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+@media screen and (max-width:441px) {
+    .content_block {
+        width: 100%;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-self: center;
+    }
+}
+
+.content_block>span {
+    margin: 0.3rem;
+}
