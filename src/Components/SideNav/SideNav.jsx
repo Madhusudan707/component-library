@@ -22,7 +22,6 @@ export const SideNav = () => {
                    <li><Link to={MODAL}>Modal</Link></li>
                    <li><Link to={TOAST}>Toast</Link></li>
                </ul>
-
            </div>
         </div>
     )
