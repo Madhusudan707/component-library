@@ -62,8 +62,8 @@ label.radio {
     box-sizing: border-box;
 }
 
-
-.btn {
+/* 
+.btn-input {
     width: 100%;
     padding: 0.5rem 1rem;
     border-radius: 0.7rem;
@@ -73,7 +73,7 @@ label.radio {
     text-align: center;
 }
 
-.btn:hover {
+.btn-input:hover {
     box-shadow: 0 6px 18px 0 rgba(0, 0, 0, 0.1);
     border-color: transparent;
     background-color: transparent;
@@ -81,15 +81,11 @@ label.radio {
 }
 
 
-.btn-default {
+.btn-input-default {
     box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
-}
-
-
-.btn-default {
     background-color: #e0e0e0;
 }
 
-.btn-default:hover {
+.btn-input-default:hover {
     color: #e0e0e0;
-}
+} */

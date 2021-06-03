@@ -2,7 +2,7 @@
     grid-area:body;
 }
 
-.btn{
+/* .btn-modal{
     width:100px;
     padding:10px;
     border-radius:0.5rem;
@@ -11,10 +11,10 @@
     cursor: pointer;
 }
 
-  .btn-primary{
+  .btn-modal-primary{
     color: #fff;
     background-color: #1976d2;
- }
+ } */
 
 /*code copied from https://codepen.io/Lightislands/pen/XdYYgb?editors=1100 */
 

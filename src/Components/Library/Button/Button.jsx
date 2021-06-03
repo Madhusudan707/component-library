@@ -8,7 +8,7 @@ export const Button = () => {
       <Description text="Buttons allow users to take actions, and make choices, with a single tap." />
       <div className="mt-4 flex flex-row items-start justify-start  w-full">
         <button className="btn btn-default gap">DEFAULT</button>
-        <button className="btn btn-primary gap">PRIMARY</button>
+        <button className="btn btn-primary gap ">PRIMARY</button>
         <button className="btn btn-secondary gap">SECONDARY</button>
         <button className="btn btn-disable gap" disabled>
           DISABLED

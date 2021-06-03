@@ -20,9 +20,11 @@ export const Home = () => {
       </div>
       <div className="flex flex-col items-center justify-center text-center w-2/4 mr-8 ">
         <div className="text-2xl ">
-          <p>
+        
+          <p className='text-2xl'>
             OK CSS lets you build web apps faster by providing reusable classes.
           </p>
+          <h1 className='text-5xl mt-12'>Getting Started</h1>
         </div>
         <div className="mt-16">
           To Quickly get started, place the below code in the head tag of your

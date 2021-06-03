@@ -4,7 +4,7 @@ a {
 
 .App {
   display: grid;
-  grid-template-areas: 'sidenav body ';
+  grid-template-areas: 'sidenav body body ';
 }
 
 .sidenav{
@@ -18,7 +18,9 @@ a {
 
 .common{
   grid-area:body;
-  width: 80%;
+  width:70%;
+  margin-left:2%;
+
 }
 
 .home>div>img{
