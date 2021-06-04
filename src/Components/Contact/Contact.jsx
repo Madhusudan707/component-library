@@ -1,6 +1,6 @@
 export const Contact = () => {
     return (
-        <div className='absolute right-4 bottom-4  border rounded-full  '>
+        <div className='fixed right-4 bottom-4  border rounded-full  '>
              <div className="flex flex-col items-center  p-4">
             <a
               href="https://www.linkedin.com/in/madhusudan-das-8552ba196"

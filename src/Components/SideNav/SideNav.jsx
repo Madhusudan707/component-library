@@ -1,14 +1,22 @@
 
-import {Brand} from '../'
+import {Brand,Header,Hamburger} from '../'
+import {useToggle} from "../../contexts/toggleContext"
 import './sidenav.css'
+import './sideNavToggle.css'
 import {Link} from 'react-router-dom'
 import {HOME,AVATAR,ALERT,BADGE,BUTTON,CARD,IMAGE,INPUT,LIST,MODAL,TOAST} from '../../routing/paths'
+
 export const SideNav = () => {
+    const {isShow} = useToggle()
     return (
-        <div className='flex flex-col bg-green-500 lg:w-72 lg:h-screen bg-gradient-to-b from-blue-500  to-blue-700 fixed sidenav z-10'>
+        <>
+         <Header/>
+         <Hamburger/>
+        <div className='flex flex-col bg-green-500 w-80 lg:w-72 lg:h-screen bg-gradient-to-b from-blue-500  to-blue-700 fixed sidenav z-10'>
            <Brand/>
-           <div className='border-b w-full mt-5'></div>
-           <div className='flex flex-col items-center show-scroll scrollbar-style '>
+           
+           <div className='border-b w-full mt-5 divider'></div>
+           <div className={`flex flex-col items-center show-scroll scrollbar-style ${isShow?null:"menuHide"}`} id="sidebarMenu">
                <ul className='text-white text-2xl p-4'>
                    <li><Link to={HOME}>Home</Link></li>
                    <li><Link to={AVATAR}>Avatar</Link></li>
@@ -24,5 +32,6 @@ export const SideNav = () => {
                </ul>
            </div>
         </div>
+        </>
     )
 }

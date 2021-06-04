@@ -7,6 +7,16 @@ a {
   grid-template-areas: 'sidenav body body ';
 }
 
+@media screen and (max-width:441px){
+
+  .App{
+    display: grid;
+    grid-template-areas: 
+    'header'
+    'body ';
+  }
+}
+
 .sidenav{
   grid-area:sidenav;
 }

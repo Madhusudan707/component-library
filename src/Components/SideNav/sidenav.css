@@ -23,3 +23,19 @@ ul>li {
 {
 	background-color: #000000;
 }
+
+@media screen and (max-width:441px){
+
+    .divider{
+        display: none;
+    }
+    .menuHide{
+        display:none
+    }
+
+    
+}
+
+
+
+
