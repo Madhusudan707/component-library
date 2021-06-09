@@ -12,12 +12,12 @@ export const SideNav = () => {
         <>
          <Header/>
          <Hamburger/>
-        <div className='flex flex-col bg-green-500 w-80 lg:w-72 lg:h-screen bg-gradient-to-b from-blue-500  to-blue-700 fixed sidenav z-10'>
+        <div className='flex flex-col lg:mt-0 mt-20 w-80 lg:w-72 lg:h-screen bg-gradient-to-b from-blue-500  to-blue-700 fixed sidenav z-10'>
            <Brand/>
            
            <div className='border-b w-full mt-5 divider'></div>
-           <div className={`flex flex-col items-center show-scroll scrollbar-style ${isShow?null:"menuHide"}`} id="sidebarMenu">
-               <ul className='text-white text-2xl p-4'>
+           <div className={`flex flex-col items-center show-scroll   scrollbar-style ${isShow?null:"menuHide"}`} id="sidebarMenu">
+               <ul className='text-white text-2xl p-4 h-screen '>
                    <li><Link to={HOME}>Home</Link></li>
                    <li><Link to={AVATAR}>Avatar</Link></li>
                    <li><Link to={ALERT}>Alert</Link></li>
