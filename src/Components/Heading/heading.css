@@ -1,0 +1,9 @@
+.heading {
+    color: #1976D2
+}
+
+@media screen and (max-width:441px) {
+    .heading {
+        padding: 0.5rem;
+    }
+}

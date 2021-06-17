@@ -1,0 +1,76 @@
+
+
+.gap {
+    margin-left: 1%;
+}
+
+button[disabled] {
+    pointer-events: none;
+}
+
+.btn {
+    padding: 1rem 1rem;
+    border-radius: 0.7rem;
+    outline: none;
+    border: 0px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn:hover {
+    box-shadow: 0 6px 18px 0 rgba(0, 0, 0, 0.1);
+    border-color: transparent;
+    background-color: transparent;
+    border: 1px solid #000000
+}
+
+.btn-default, .btn-primary, .btn-secondary, .btn-link {
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+}
+
+.btn-default {
+    background-color: #e0e0e0;
+}
+
+.btn-default:hover {
+    color: #e0e0e0;
+}
+
+.btn-primary, .btn-link {
+    color: #fff;
+    background-color: #1976d2;
+}
+
+.btn-primary:hover, .btn-link:hover {
+    color: #1976d2;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: rgb(220, 0, 78);
+}
+
+.btn-secondary:hover {
+    color: rgb(220, 0, 78)
+}
+
+.btn-disabled {
+    box-shadow: 0px;
+    pointer-events: none;
+    border:1px solid #000000;
+}
+
+.btn-link {
+    width: 4.375rem;
+}
+
+@media screen and (max-width:441px) {
+    .content-block {
+        margin-top: 5%;
+        display: grid;
+        grid-gap: 30px;
+        grid-template-columns: 1fr 1fr;
+        justify-self: center;
+    }
+}
