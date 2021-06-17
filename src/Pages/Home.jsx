@@ -4,7 +4,7 @@ import { vs } from "react-syntax-highlighter/dist/esm/styles/prism";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 
 export const Home = () => {
-  const code_snippet = `    <link rel="stylesheet" href="https://ok-css.herokuapp.com/Download/ok.css">
+  const code_snippet = `    <link rel="stylesheet" href="https://ok-css.netlify.app/Download/ok.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"/> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>`;
 
