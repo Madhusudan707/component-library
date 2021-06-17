@@ -4,7 +4,7 @@ import {useToggle} from "../../contexts/toggleContext"
 import './sidenav.css'
 import './sideNavToggle.css'
 import {Link} from 'react-router-dom'
-import {HOME,AVATAR,ALERT,BADGE,BUTTON,CARD,IMAGE,INPUT,LIST,MODAL,TOAST} from '../../routing/paths'
+import {HOME,AVATAR,ALERT,BADGE,BUTTON,CARD,INPUT,LIST,MODAL,TOAST} from '../../routing/paths'
 
 export const SideNav = () => {
     const {isShow} = useToggle()
@@ -24,7 +24,6 @@ export const SideNav = () => {
                    <li><Link to={BADGE}>Badge</Link></li>
                    <li><Link to={BUTTON}>Button</Link></li>
                    <li><Link to={CARD}>Card</Link></li>
-                   <li><Link to={IMAGE}>Image</Link></li>
                    <li><Link to={INPUT}>Input</Link></li>
                    <li><Link to={LIST}>Lists</Link></li>
                    <li><Link to={MODAL}>Modal</Link></li>

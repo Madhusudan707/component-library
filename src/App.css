@@ -4,17 +4,29 @@ a {
 
 .App {
   display: grid;
-  grid-template-areas: 'sidenav body body ';
+  grid-template-areas: 'sidenav body ';
+  grid-template-columns: 20% 70%;
 }
 
 @media screen and (max-width:441px){
 
   .App{
     display: grid;
+    /* grid-template-rows: 80px 1fr 30px; */
     grid-template-areas: 
     'header'
-    'body ';
+    'body';
+    grid-template-columns: 100% 100%;
+    overflow: hidden;
   }
+  .home{
+    width:100% !important;
+  
+  }
+  .home>div>img{
+    width:200px !important;
+  }
+
 }
 
 .sidenav{
@@ -22,18 +34,16 @@ a {
 }
 
 .home{
-  overflow: hidden;
+  width:100%;
   grid-area:body;
 }
 
 .common{
   grid-area:body;
-  width:70%;
-  margin-left:2%;
-
+  width:100%;
 }
 
 .home>div>img{
-  width:800px;
+  width:400px;
 }
 

@@ -19,19 +19,19 @@ export const Input = () => {
             />
           </div>
           <div>
-            <label for="option">Select</label>
+            <label htmlFor="option">Select</label>
             <select className="default-select" id="option">
-              <option value="" disabled selected>
+              <option defaultValue="" disabled selected>
                 Choose your option{" "}
               </option>
-              <option value="1">Option 1</option>
-              <option value="2">Option 2</option>
-              <option value="3">Option 3</option>
-              <option value="4">Option 4</option>
+              <option defaultValue="1">Option 1</option>
+              <option defaultValue="2">Option 2</option>
+              <option defaultValue="3">Option 3</option>
+              <option defaultValue="4">Option 4</option>
             </select>
           </div>
           <div>
-            <label for="textarea">Textarea</label>
+            <label htmlFor="textarea">Textarea</label>
             <textarea cols="25" rows="4" id="textarea" className="default-textarea"></textarea>
           </div>
           <div>

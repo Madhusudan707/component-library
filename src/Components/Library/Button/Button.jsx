@@ -6,14 +6,15 @@ export const Button = () => {
       <Heading text="Button" />
 
       <Description text="Buttons allow users to take actions, and make choices, with a single tap." />
-      <div className="mt-4 flex flex-row items-start justify-start  w-full">
-        <button className="btn btn-default gap">DEFAULT</button>
-        <button className="btn btn-primary gap ">PRIMARY</button>
-        <button className="btn btn-secondary gap">SECONDARY</button>
-        <button className="btn btn-disable gap" disabled>
+      <div className="mt-4 flex flex-wrap lg:flex-row items-start justify-around w-full">
+        
+        <button className="btn btn-default  ">DEFAULT</button>
+        <button className="btn btn-primary  ">PRIMARY</button>
+        <button className="btn btn-secondary ">SECONDARY</button>
+        <button className="btn btn-disable  mt-4 lg:mt-0" disabled>
           DISABLED
         </button>
-        <button className="btn btn-link gap">LINK</button>
+        <button className="btn btn-link gap mt-4 lg:mt-0">LINK</button>
       </div>
 
       <Snippet

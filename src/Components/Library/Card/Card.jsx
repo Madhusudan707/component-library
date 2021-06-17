@@ -3,11 +3,11 @@ import "./card.css";
 
 export const Card = () => {
   return (
-    <div className="card-main">
+    <>
       <Heading text="Cards" />
 
-      <Description text="Cards contain content and actions about a single subject." />
-      <div className="flex flex-row w-full">
+      <Description text="Cards contain content about a single subject." />
+      <div className="flex flex-row flex-wrap items-center justify-center w-full">
       
         <div className="card">
           <div className="card-title">
@@ -53,21 +53,21 @@ export const Card = () => {
         </div>
         </div>
         <Snippet code_snippet={`<div class='card'>
-    <div class='card-title'>
-        <h4>Card Title</h4>
-    </div>
-    <div class='card-img'>
-        <img src='sample.jpg' alt='sample'/>
-    </div>
-    <div class='card-content'>
-        <span>My Card Content</span>
-    </div>
+  <div class='card-title'>
+    <h4>Card Title</h4>
+  </div>
+  <div class='card-img'>
+    <img src='sample.jpg' alt='sample'/>
+  </div>
+  <div class='card-content'>
+    <span>My Card Content</span>
+  </div>
 </div>
     `} />
     
 
      
-    </div>
+    </>
   );
 };
 

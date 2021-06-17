@@ -5,7 +5,7 @@ export const Image = () => {
     <>
       <Heading text="Image" />
       <Description text="" />
-      <div className='flex flex-row w-96 h-52 p-4'>
+      <div className='flex flex-row flex-wrap w-96 h-52 p-4'>
         <img
           alt="card"
           className="img-card img-small mr-2"

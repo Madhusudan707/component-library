@@ -1,7 +1,7 @@
 @media screen and (max-width:441px){
     .snippet-main{
         margin-top:5%;
-        width:100vw;
+        /* width:100vw; */
         border:0;
         transform: scale(1);
        

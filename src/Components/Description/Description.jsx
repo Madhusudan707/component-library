@@ -2,6 +2,6 @@
 import  './description.css'
 export const Description = ({text}) => {
     return (
-        <h4 className="description mt-4 text-lg " style={{width:"800px"}} >{text}</h4>
+        <h4 className="description mt-4 lg:text-lg lg:w-full w-24 text-center lg:text-left " >{text}</h4>
     )
 }
