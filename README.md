@@ -3,7 +3,7 @@
 OK CSS lets you build web apps faster by providing reusable classes.
 # Getting Started 
 
-### To Quickly get started, place the below code in the head tag of yourpage.
+To Quickly get started, place the below code in the head tag of yourpage.
 
 ```
     <link rel="stylesheet" href="https://ok-css.netlify.app/Download/ok.css">
