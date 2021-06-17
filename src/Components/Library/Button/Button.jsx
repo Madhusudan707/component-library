@@ -11,7 +11,7 @@ export const Button = () => {
         <button className="btn btn-default  ">DEFAULT</button>
         <button className="btn btn-primary  ">PRIMARY</button>
         <button className="btn btn-secondary ">SECONDARY</button>
-        <button className="btn btn-disable  mt-4 lg:mt-0" disabled>
+        <button className="btn btn-disabled  mt-4 lg:mt-0" disabled>
           DISABLED
         </button>
         <button className="btn btn-link gap mt-4 lg:mt-0">LINK</button>
