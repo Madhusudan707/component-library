@@ -1,3 +1,4 @@
+import {useState} from 'react'
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { vs } from "react-syntax-highlighter/dist/esm/styles/prism";
 import { CopyToClipboard } from "react-copy-to-clipboard";
@@ -6,6 +7,17 @@ export const Home = () => {
   const code_snippet = `    <link rel="stylesheet" href="https://ok-css.herokuapp.com/Download/ok.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"/> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>`;
+
+    const [btnText,setBtnText] = useState("CLICK TO COPY")
+  const [btnColor,setBtnColor] = useState("bg-gray-500")
+  const copyAlert=()=>{
+    setBtnText("SNIPPET COPIED!!")
+    setBtnColor("bg-blue-500")
+    setTimeout(()=>{
+      setBtnText("CLICK TO COPY")
+      setBtnColor("bg-gray-500")
+    },1000)
+  }
   return (
     <div className="flex flex-row home w-full ">
       <div className="flex flex-col w-full items-center justify-center">
@@ -31,7 +43,7 @@ export const Home = () => {
             {code_snippet}
           </SyntaxHighlighter>
           <CopyToClipboard text={code_snippet}>
-            <button className='bg-red-500 text-white font-bold p-4 shadow-sm hover:bg-blue-500'>CLICK TO COPY</button>
+          <button className={` ${btnColor} text-white font-bold p-4 shadow-sm cursor-pointer rounded-lg hover:bg-blue-500 focus:outline-none`} onClick={copyAlert}>{btnText}</button>
           </CopyToClipboard>
           </div>
         </div>
