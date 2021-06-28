@@ -7,7 +7,7 @@ export const Modal = () => {
             <Heading text="Modal" />
             <Description text="The modal component provides a solid foundation for creating dialogs, popovers, lightboxes." />
             <>
-            <a href="#myModal"><button id='open_modal' className="btn btn-primary">Modal</button></a>
+            <a href="#myModal"><button  className="btn btn-primary">Modal</button></a>
 
                 <div id="myModal" className="modal">
                     <div className="modal-content">
@@ -17,7 +17,7 @@ export const Modal = () => {
                     </div>
                 </div>
             </>
-            <Snippet code_snippet={`<button id="open-modal" class="btn btn-primary">Open Modal</button>
+            <Snippet code_snippet={`<a href="#myModal"><button  className="btn btn-primary">Modal</button></a>
 <div id="myModal" class="modal">
 	<div class="modal-content">
      	<a href="#close" title="Close" class="modal-close">X</a>
