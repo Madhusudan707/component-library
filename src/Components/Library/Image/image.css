@@ -1,0 +1,43 @@
+.image-main{
+    display: grid;
+    grid-area:body;
+    width: 70%;
+}
+
+.content-block>img{
+    margin-left:1rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width:441px){
+    .content-block{
+        display:grid;
+        justify-self: center;
+       
+      }
+  }
+
+.img-small{
+    width: 12.5rem;
+}
+
+
+.img-card{
+    border-radius: 0.5rem;
+}
+
+.img-circle{
+    border-radius: 50%;
+}
+
+.img-thumbnail{
+   width: 12.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 0.313rem;
+}
+
+.img-responsive{
+  max-width: 100%;
+  height: auto;
+}

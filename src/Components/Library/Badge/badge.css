@@ -1,0 +1,36 @@
+.wrapper {
+    position:relative;
+}
+
+.badge{
+    display: inline-table;
+    vertical-align: middle;
+    width: 35px;
+    height: 35px;
+    background-color: red;
+    border-radius: 50%;
+   position: absolute;
+   left:40px;
+   top:-15px;
+}
+
+.content{
+    position:absolute;
+    top:4px;
+    left:12px;
+    color:#ffffff;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width:441px) {
+    .content_block {
+        width: 100%;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-self: center;
+    }
+}
+
+.content_block>span {
+    margin: 0.3rem;
+}

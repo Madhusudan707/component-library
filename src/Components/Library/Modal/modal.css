@@ -1,0 +1,77 @@
+.modal-main{
+    grid-area:body;
+}
+
+/* .btn-modal{
+    width:100px;
+    padding:10px;
+    border-radius:0.5rem;
+    outline:none;
+    border:0px;
+    cursor: pointer;
+}
+
+  .btn-modal-primary{
+    color: #fff;
+    background-color: #1976d2;
+ } */
+
+/*code copied from https://codepen.io/Lightislands/pen/XdYYgb?editors=1100 */
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 100ms ease-in;
+    -moz-transition: opacity 100ms ease-in;
+    transition: opacity 100ms ease-in;
+    pointer-events: none;
+}
+.modal:target {
+    opacity:1;
+    pointer-events: auto;
+}
+.modal-content{
+    max-width: 800px;
+    width: 90%;
+    position: relative;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 3px;
+    background: #fff;
+}
+.modal-close {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:2rem;
+    
+    line-height: 25px;
+    position: absolute;
+    right: 5px;
+    text-align: center;
+    top: 0px;
+    width: 34px;
+    height: 34px;
+    text-decoration: none;
+    font-weight: bold;
+    padding-top: 5px;
+}
+.modal-close:hover {
+    background: #ffffff;
+    color:#e53935
+}
+
+@media screen and (max-width:441px){
+    .content-block>a{
+        
+      margin:2rem;
+       
+      }
+      .content-block>a>button{
+          width:50%;
+      }
+  }

@@ -1,0 +1,63 @@
+
+/* .content_block {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+} */
+
+.col {
+    display: grid;
+    grid-template-rows: 30px;
+    padding: 0 15px 5px;
+    border: 1px solid #ddd;
+    min-height: 400px;
+    width: 330px;
+    margin: 5px;
+}
+
+
+/*1. Default input box */
+.default-input {
+    padding: 1rem;
+    outline: none
+}
+
+.default-input::placeholder {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.default-input:focus::placeholder {
+    color: transparent;
+}
+
+.default-input:focus,
+.default-select:focus,
+.default-textarea:focus {
+    border: 1px dashed #1976D2;
+}
+
+/*2. Default Select */
+
+.default-select {
+    width: 13.5rem;
+    padding: 1rem;
+    outline: none;
+}
+
+/*3. Default Textarea */
+
+.default-textarea {
+    outline: none
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+label.checkbox,
+label.radio {
+    display: inline;
+    box-sizing: border-box;
+}

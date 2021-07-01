@@ -1,0 +1,40 @@
+.card-main{
+    display:grid;
+    grid-area:body;
+    z-index:-1;
+}
+
+.content-block{
+   display:grid;
+   grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media screen and (max-width:441px){
+    .content-block{
+        grid-template-columns: 1fr; 
+        justify-self: center;
+       
+      }
+  }
+
+.card {
+    width: 15.625rem;
+    border-radius:0.5rem;
+    margin: 1rem;
+    padding: 1rem;
+    align-self: stretch;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+}
+
+.card-img>img {
+    width: 15.625rem;
+    align-self: center;
+
+}
+
+.card-content>span {
+    display:grid;
+    padding: 1rem;
+}
+
